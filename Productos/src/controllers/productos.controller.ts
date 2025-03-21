@@ -12,7 +12,7 @@ export const getAll = (req: any, res: any) => {
 };
 
 // Insertar un producto
-export const insertProductAll = (req: any, res: any) => {
+export const insertProduct = (req: any, res: any) => {
     try {
         const { nombre, descripcion, precio, categoria } = req.body;
 
